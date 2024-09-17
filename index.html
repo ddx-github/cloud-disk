@@ -1,0 +1,20 @@
+<html>
+  <head><title>加载中……</title></head>
+  <body>
+    <noscript>
+      <b>啊哦，你需要使用支持JavaScript的浏览器才能打开此页面</b><br></br><i>Chrome:<a href="http://www.google.cn/chrome"></a></i>
+    </noscript>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      document.title = "云盘";
+      var type = get("type");
+      if (type == "music") {
+        document.title = "音乐云盘";
+        document.write("");
+      } else if (type == "video") {
+        document.title = "视频云盘";
+        document.write("");
+      }
+    </script>
+  </body>
+</html>
